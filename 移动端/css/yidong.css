@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    zoom: 1;
+    clear: both;
+    content: "";
+    display: block;
+}
+.container {
+    width: 100%;
+    min-height: 16rem;
+    background-color: #f2f2f2;
+    font-family: "\5FAE\8F6F\96C5\9ED1","Microsoft YaHei";
+    font-size:0.125rem;
+    padding-top: 1.36rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.bar {
+    width: 100%;
+    height:1.359875rem ;
+    background: url(https://yys.res.netease.com/m/gw/20180918135651/img/top_bg_936a739.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+a{
+    font-size: 0.3125rem;
+}
+.bar .yys_Icon {
+    width: 1.06640625rem;
+    height:1.06640625rem;
+    border: 2px #fff solid;
+    border-radius:0.2396rem;
+    box-sizing: border-box;
+    margin:0.1467rem 0.2133rem 0.1467rem 0.4rem;
+    float: left;
+}
+img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.bar .signs {
+    font-size: .40625rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 0.55rem;
+    margin-top: .14665625rem;
+    float: left;
+}
+.bar .signs p {
+    font-size: 0.32rem;
+    font-weight: 400;
+    color: #fff;
+    line-height:0.44rem;
+}

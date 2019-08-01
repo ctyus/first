@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/yidong.css" type="text/css">
+    
+    <script type="text/javascript">
+        function init(){
+            var width=document.documentElement.clientWidth;
+            //动态设置设备的html字体大小
+          document.documentElement.style.fontSize = width /10+ 'px';
+        }
+        
+        init()
+        //当屏幕宽度变化时
+        window.addEventListener('resize',init)
+        //当切换横竖屏时
+        window.addEventListener('orientationchange',init)
+        
+      </script>
+</head>
+
+<body>
+        <div class="container">
+        <div class="bar" id="bar">
+            <a href="#" class="yys_Icon"><img
+                    src="https://webinput.nie.netease.com/img/yys/icon.png/128" alt="icon"></a>
+            <div class="signs">
+                <span>阴阳师</span>
+                <p>网易和风匠心巨制</p>
+            </div>
+            <a href="#" class="down" title="下载"></a>
+            <a href="#" class="searchBtn" id="searchBtn" title="搜索"></a>
+            <div class="searchInput">
+                <div class="sInput">
+                    <a href="#" class="searchBtn2" id="Jsubmit" title="搜索"></a>
+                    <input type="text"  placeholder="阴阳师两周年" name="搜索">
+                </div>
+                
+            </div>
+        </div>
+        <div class="wrap topWrap">
+            <div class="swiper-container banner swiper-container-horizontal">
+                <div class="swiper-wrapper bnwrap"
+                    style="transform: translate3d(-1280px, 0px, 0px); transition-duration: 0ms;"><a href="javascript:;"
+                        title="骁浪荒川之主02" class="swiper-slide bn_bd swiper-slide-duplicate swiper-slide-duplicate-active"
+                        data-swiper-slide-index="3" style="width: 320px;"><img
+                            src="https://nie.res.netease.com/r/pic/20190729/70c0bf98-2c0c-43a7-a6e1-9911de2c3a30.jpg"
+                            alt="骁浪荒川之主02"></a>
+                    <a href="javascript:;" title="骁浪荒川之主04" class="swiper-slide bn_bd swiper-slide-duplicate-next"
+                        data-swiper-slide-index="0" style="width: 320px;"><img
+                            src="https://nie.res.netease.com/r/pic/20190729/27feccb0-4ff4-4675-957c-d42aba68386d.jpg"
+                            alt="骁浪荒川之主04"></a>
+                    <a href="javascript:;" title="骁浪荒川之主" class="swiper-slide bn_bd" data-swiper-slide-index="1"
+                        style="width: 320px;"><img
+                            src="https://nie.res.netease.com/r/pic/20190729/56249516-b199-4bb7-bf47-c5b8732b25a3.jpg"
+                            alt="骁浪荒川之主"></a>
+                    <a href="javascript:;" title="骁浪荒川之主03" class="swiper-slide bn_bd swiper-slide-prev"
+                        data-swiper-slide-index="2" style="width: 320px;"><img
+                            src="https://nie.res.netease.com/r/pic/20190729/07b2a2fa-f7d1-451f-becd-51b374123874.jpg"
+                            alt="骁浪荒川之主03"></a>
+                    <a href="javascript:;" title="骁浪荒川之主02" class="swiper-slide bn_bd swiper-slide-active"
+                        data-swiper-slide-index="3" style="width: 320px;"><img
+                            src="https://nie.res.netease.com/r/pic/20190729/70c0bf98-2c0c-43a7-a6e1-9911de2c3a30.jpg"
+                            alt="骁浪荒川之主02"></a>
+                    <a href="javascript:;" title="骁浪荒川之主04"
+                        class="swiper-slide bn_bd swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0"
+                        style="width: 320px;"><img
+                            src="https://nie.res.netease.com/r/pic/20190729/27feccb0-4ff4-4675-957c-d42aba68386d.jpg"
+                            alt="骁浪荒川之主04"></a></div>
+                <div class="swiper-pagination bn_hd"></div>
+            </div>
+            <a href="https://adl.netease.com/d/g/yys/c/gwm" class="downGame" id="downGame" pub-name="下载游戏"
+                title="下载游戏"></a>
+        </div>
+      
+    </div>
+</body>
+
+</html>
